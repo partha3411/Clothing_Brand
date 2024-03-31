@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="461.0" prefWidth="782.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutY="-8.0" prefHeight="414.0" prefWidth="782.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="All Discount Products">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </Text>
+            <TableView prefHeight="368.0" prefWidth="761.0">
+              <columns>
+                <TableColumn prefWidth="142.4000244140625" text="Product name" />
+                <TableColumn minWidth="8.0" prefWidth="122.4000244140625" text="Regular Prices" />
+                  <TableColumn minWidth="8.0" prefWidth="112.0" text="Discount Percent" />
+                  <TableColumn minWidth="8.0" prefWidth="112.0" text="Total Price" />
+                  <TableColumn minWidth="8.0" prefWidth="112.0" text="Stock  Status" />
+                  <TableColumn minWidth="8.0" prefWidth="112.0" text="Buy" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="484.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Deliverman_ProfileController">
+   <children>
+      <HBox alignment="TOP_CENTER" layoutX="-7.0" layoutY="-4.0" prefHeight="274.0" prefWidth="674.0">
+         <children>
+            <TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" prefHeight="275.0" prefWidth="674.0" text="Profile Details" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <content>
+                  <VBox alignment="BOTTOM_LEFT" prefHeight="285.0" prefWidth="673.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="113.0" text="Update Profile" />
+                        <HBox prefHeight="42.0" prefWidth="206.0" />
+                        <Button mnemonicParsing="false" text="Upload Picture" />
+                        <HBox prefHeight="45.0" prefWidth="206.0" />
+                        <Button mnemonicParsing="false" text="Button" />
+                        <HBox prefHeight="39.0" prefWidth="206.0" />
+                        <Button mnemonicParsing="false" text="Button" />
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+         </children></HBox>
+      <VBox layoutX="242.0" layoutY="309.0" prefHeight="176.0" prefWidth="426.0" />
+   </children>
+</AnchorPane>
